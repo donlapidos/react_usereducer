@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 1rem;
+  min-width: 100px;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  border-radius: 0.5em;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.5em;
+  margin-bottom: 1rem;
+}
